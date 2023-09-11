@@ -1,0 +1,25 @@
+Running build in Washington, D.C., USA (East) – iad1
+00:39:22	Cloning github.com/sammyfilly/openai-node (Branch: master, Commit: 3f85654)
+00:39:22	Previous build cache not available
+00:39:22	Cloning completed: 313.242ms
+00:39:22	Running "vercel build"
+00:39:23	Vercel CLI 32.2.1
+00:39:24	Installing dependencies...
+00:39:24	yarn install v1.22.17
+00:39:24	[1/4] Resolving packages...
+00:39:24	[2/4] Fetching packages...
+00:39:43	[3/4] Linking dependencies...
+00:39:52	[4/4] Building fresh packages...
+00:39:52	Done in 27.84s.
+00:39:53	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+00:39:53	This information is used to shape Next.js' roadmap and prioritize features.
+00:39:53	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+00:39:53	https://nextjs.org/telemetry
+00:39:53	
+00:39:53	
+00:39:53	> Build error occurred
+00:39:53	Error: > Couldn't find any `pages` or `app` directory. Please create one under the project root
+00:39:53	    at findPagesDir (/usr/local/share/.config/yarn/global/node_modules/next/dist/lib/find-pages-dir.js:54:15)
+00:39:53	    at /usr/local/share/.config/yarn/global/node_modules/next/dist/build/index.js:195:75
+00:39:53	    at async Span.traceAsyncFn (/usr/local/share/.config/yarn/global/node_modules/next/dist/trace/trace.js:105:20)
+00:39:53	    at async build (/usr/local/share/.config/yarn/global/node_modules/next/dist/build/index.js:148:29)
